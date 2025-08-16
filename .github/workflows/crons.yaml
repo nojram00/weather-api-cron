@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.x'
       - name: Delete empty data
-        run: python /path/to/delete_empty_data.py
+        run: python ../../delete_empty_data.py
 
   delete-old-data:
     runs-on: ubuntu-latest
@@ -29,4 +29,4 @@ jobs:
         with:
           python-version: '3.x'
       - name: Delete old data
-        run: python /path/to/delete_old_data.py
+        run: python ../../delete_old_data.py
