@@ -29,4 +29,4 @@ jobs:
         with:
           python-version: '3.x'
       - name: Delete old data
-        run: python ../../delete_old_data.py
+        run: python ../delete_old_data.py
